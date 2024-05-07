@@ -216,7 +216,7 @@ fn interpret_helper(
         _ => todo!("unimplemented node type: {:?}", node.op),
     }
 }
-use egraph_serialize::{ClassId, Node};
+use egraph_serialize::Node;
 use indexmap::IndexMap;
 
 #[derive(Default)]
